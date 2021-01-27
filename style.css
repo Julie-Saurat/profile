@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&family=Poppins:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto:wght@300;400;700&display=swap');
+
+body {
+  background: #FED6E3;
+  background: -moz-linear-gradient(top, #FED6E3 0%, #A9EDEA 100%);
+  background: -webkit-linear-gradient(top, #FED6E3 0%, #A9EDEA 100%);
+  background: linear-gradient(to bottom, #FED6E3 0%, #A9EDEA 100%);
+  font-family: 'Nunito', sans-serif;
+  color: #3D3D3D;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.text_align {
+  text-align: center;
+}
+
+@media (min-width: 961px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+    margin: 0 auto;
+  }
+}
+
+.card {
+  background: white;
+  padding: 30px 60px;
+  margin: 15px auto;
+  border-radius: 5px;
+  box-shadow: 2px 2px 30px #E0E0E0;
+}
+
+#main_card {
+  margin: 30px auto 15px;
+}
+
+.headers_font {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  color: #4C7377;
+  font-size: 30px;
+}
+
+h2 {
+  color: #4C7377;
+  font-size: 20px;
+}
+
+.avatar{
+  width: 200px;
+  box-shadow: 1px 3px 5px #D6D6D6;
+  border-radius: 50%;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  margin-block-end: 40px;
+}
+
+.green_btn {
+  background-color: #C6E6D8;
+  color: #3D3D3D;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px #EBEBEB;
+  display: inline-block;
+}
+
+.green_btn:hover {
+  background-color: #4C7377;
+  color: white;
+}
+
+@media (min-width: 961px) {
+  .gif_format {
+    border-radius: 5px;
+    width: 300px;
+  }
+}
+
+@media (max-width: 960px) {
+  .gif_format {
+    border-radius: 5px;
+    width: 300px;
+  }
+}
+
+@media (max-width: 720px) {
+  .gif_format {
+    border-radius: 5px;
+    width: 200px;
+  }
+}
+@media (max-width: 540px) {
+  .gif_format {
+    border-radius: 5px;
+    width: 150px;
+  }
+}
+
+
+
+i {
+  font-size: 50px;
+}
+
+.inline_list > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.inline_list {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.social_media_logo {
+  color: #4C7377;
+}
+
+.social_media_logo:hover {
+  color: #EEBFBF;
+}
+
